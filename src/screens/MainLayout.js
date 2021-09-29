@@ -367,17 +367,17 @@ const styles = StyleSheet.create({
          paddingBottom: 10,
          borderTopLeftRadius: 20,
          borderTopRightRadius: 20,
-         backgroundColor:COLORS.white
+         backgroundColor:COLORS.white,
     },
     linearGradient:{
                  elevation:1,
                  position: 'absolute',
-                 top: -20,
                  left: 0,
                  right: 0,
                  height: 100,
                  borderTopLeftRadius: 15,
-                 borderTopRightRadius:15
+        borderTopRightRadius: 15,
+                 overflow:'hidden'
             }
     
 })
